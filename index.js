@@ -7,16 +7,29 @@ const user = {
   },
 
   check: () => {  
-    if(user.name ==="sagar" && user.password === "ghimire")
+
+
+    
+
+
+    if(!(user.name == " " && user.password == " " && user.name == null && user.password==null)){
+      
+      if(user.name ==="sagar" && user.password === "ghimire")
     {
 
-        alert("login successfull")
+        alert("logged in")
         
-        // document.body.innerHTML += '<a href = "https://facebook.com"> visit your facebook profile </a>'
         window.location = "https://github.com/Arun1only1/batch2-3pm-js"
     }
     else{
         alert("login failed");
+    }
+
+    }
+
+    else 
+    {
+      alert("enter username or password correctly")
     }
 
    
