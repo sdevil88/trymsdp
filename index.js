@@ -6,7 +6,7 @@ const user = {
     return this.name + this.password;
   },
 
-  check: () => {
+  check: () => {  
     if(user.name ==="sagar" && user.password === "ghimire")
     {
 
