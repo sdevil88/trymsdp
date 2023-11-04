@@ -3,7 +3,7 @@ const user = {
   password: "",
 
   returnuser: () => {
-    return this.name + this.password;
+    return user.name + user.password;
   },
 
   check: () => {  
